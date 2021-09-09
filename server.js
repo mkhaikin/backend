@@ -3,14 +3,14 @@ var cors = require('cors')
 require("dotenv").config()
 
 const app = express()
-/*
+
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://frosty-torvalds-f00827.netlify.app/',
     optionsSuccessStatus: 200 
   }
 app.use(cors(corsOptions))
-*/
-app.use(cors())
+
+//app.use(cors())
 app.get('/posts', (req, res) =>{
     console.log("Get...")
     res.send("Get any information")
