@@ -3,7 +3,7 @@ var cors = require('cors')
 require("dotenv").config()
 
 const app = express()
-/**/ */
+/**/
 var corsOptions = {
     //origin: 'https://frosty-torvalds-f00827.netlify.app/',
     origin: '*',
