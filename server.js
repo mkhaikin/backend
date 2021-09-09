@@ -17,7 +17,7 @@ app.get('/posts', (req, res) =>{
 })
 
 app.post('/posts', (req, res) => {
-    console.log("I got a Post: " + JSON.stringify(req))
+    console.log("I got a Post: ")
     res.send("Thanks for image...")
 })
 
