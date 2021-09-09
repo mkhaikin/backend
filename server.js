@@ -12,11 +12,13 @@ app.use(cors(corsOptions))
 */
 app.use(cors())
 app.get('/posts', (req, res) =>{
+    console.log("Get...")
     res.send("Get any information")
 })
 
 app.post('/posts', (req, res) => {
-    res.send("Thanks for image")
+    console.log("Post")
+    res.send("Thanks for image...")
 })
 
 const port = process.env.PORT || 8080
