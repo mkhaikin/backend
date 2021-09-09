@@ -10,6 +10,7 @@ var corsOptions = {
 app.use(cors(corsOptions))
 
 app.get('/posts', (req, res) =>{
+    res.send("Get any information")
 })
 
 app.post('/posts', (req, res) => {
